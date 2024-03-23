@@ -12,7 +12,6 @@ export default function CalButton(props) {
 
     const bgColor=btnName==='Clear'?'main-btn-red':btnName==='='?'main-btn-green'
     :btnName==="/"||btnName==="."||btnName==="*"||btnName==="+"||btnName==="-"?'main-btn-op':'main-btn';
-   // const hover=btnName==='Clear'?'':'lightgreen';
 
   return (
 
